@@ -20,6 +20,10 @@ atupdate
 config/*
 sql/test_db
 
+# ignore artifacts from PaintNet pipeline, such as .png, .pdn files
+*.png
+*.pdn
+
 # vscode
 .vscode/*
 .history
